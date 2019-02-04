@@ -1,0 +1,34 @@
+{
+  "name": "social_kata",
+  "version": "1.0.0",
+  "description": "https://github.com/xpeppers/social_networking_kata",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteo07/social_kata.git"
+  },
+  "keywords": [
+    "kata",
+    "node"
+  ],
+  "author": "Matteo Franceschi De Marchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matteo07/social_kata/issues"
+  },
+  "homepage": "https://github.com/matteo07/social_kata#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "~5.4.7",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "sinon": "^7.2.3"
+  }
+}
